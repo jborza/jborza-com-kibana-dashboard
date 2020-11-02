@@ -1,0 +1,62 @@
+{
+  "attributes": {
+    "columns": [
+      "http.response.status_code",
+      "url.original",
+      "user_agent.name",
+      "source.ip"
+    ],
+    "description": "",
+    "hits": 0,
+    "kibanaSavedObjectMeta": {
+      "searchSourceJSON": "{\"highlightAll\":true,\"version\":true,\"query\":{\"language\":\"kuery\",\"query\":\"\"},\"filter\":[{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":null,\"disabled\":true,\"key\":\"http.response.status_code\",\"negate\":true,\"params\":[\"200\",\"304\"],\"type\":\"phrases\",\"value\":\"200, 304\",\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index\"},\"query\":{\"bool\":{\"minimum_should_match\":1,\"should\":[{\"match_phrase\":{\"http.response.status_code\":\"200\"}},{\"match_phrase\":{\"http.response.status_code\":\"304\"}}]}}},{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":null,\"disabled\":false,\"key\":\"query\",\"negate\":false,\"type\":\"custom\",\"value\":\"{\\\"wildcard\\\":{\\\"url.original\\\":{\\\"value\\\":\\\"*html*\\\"}}}\",\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.filter[1].meta.index\"},\"query\":{\"wildcard\":{\"url.original\":{\"value\":\"*html*\"}}}},{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":null,\"disabled\":false,\"key\":\"http.response.status_code\",\"negate\":false,\"params\":{\"query\":\"200\"},\"type\":\"phrase\",\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.filter[2].meta.index\"},\"query\":{\"match_phrase\":{\"http.response.status_code\":\"200\"}}},{\"meta\":{\"type\":\"phrases\",\"key\":\"user_agent.name\",\"value\":\"crawler, SemrushBot, SeznamBot, Googlebot, bingbot, PetalBot, ia_archiver, redditbot, AhrefsBot, FacebookBot, Discordbot, Ocarinabot, Twitterbot, Applebot, YandexBot, PaperLiBot\",\"params\":[\"crawler\",\"SemrushBot\",\"SeznamBot\",\"Googlebot\",\"bingbot\",\"PetalBot\",\"ia_archiver\",\"redditbot\",\"AhrefsBot\",\"FacebookBot\",\"Discordbot\",\"Ocarinabot\",\"Twitterbot\",\"Applebot\",\"YandexBot\",\"PaperLiBot\"],\"alias\":null,\"negate\":true,\"disabled\":false,\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.filter[3].meta.index\"},\"query\":{\"bool\":{\"should\":[{\"match_phrase\":{\"user_agent.name\":\"crawler\"}},{\"match_phrase\":{\"user_agent.name\":\"SemrushBot\"}},{\"match_phrase\":{\"user_agent.name\":\"SeznamBot\"}},{\"match_phrase\":{\"user_agent.name\":\"Googlebot\"}},{\"match_phrase\":{\"user_agent.name\":\"bingbot\"}},{\"match_phrase\":{\"user_agent.name\":\"PetalBot\"}},{\"match_phrase\":{\"user_agent.name\":\"ia_archiver\"}},{\"match_phrase\":{\"user_agent.name\":\"redditbot\"}},{\"match_phrase\":{\"user_agent.name\":\"AhrefsBot\"}},{\"match_phrase\":{\"user_agent.name\":\"FacebookBot\"}},{\"match_phrase\":{\"user_agent.name\":\"Discordbot\"}},{\"match_phrase\":{\"user_agent.name\":\"Ocarinabot\"}},{\"match_phrase\":{\"user_agent.name\":\"Twitterbot\"}},{\"match_phrase\":{\"user_agent.name\":\"Applebot\"}},{\"match_phrase\":{\"user_agent.name\":\"YandexBot\"}},{\"match_phrase\":{\"user_agent.name\":\"PaperLiBot\"}}],\"minimum_should_match\":1}},\"$state\":{\"store\":\"appState\"}},{\"meta\":{\"type\":\"phrases\",\"key\":\"user_agent.original\",\"value\":\"Embed PHP library, Scoop.it\",\"params\":[\"Embed PHP library\",\"Scoop.it\"],\"alias\":null,\"negate\":true,\"disabled\":false,\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.filter[4].meta.index\"},\"query\":{\"bool\":{\"should\":[{\"match_phrase\":{\"user_agent.original\":\"Embed PHP library\"}},{\"match_phrase\":{\"user_agent.original\":\"Scoop.it\"}}],\"minimum_should_match\":1}},\"$state\":{\"store\":\"appState\"}},{\"meta\":{\"alias\":null,\"negate\":true,\"disabled\":false,\"type\":\"phrase\",\"key\":\"source.as.organization.name\",\"params\":{\"query\":\"Amazon.com, Inc.\"},\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.filter[5].meta.index\"},\"query\":{\"match_phrase\":{\"source.as.organization.name\":\"Amazon.com, Inc.\"}},\"$state\":{\"store\":\"appState\"}}],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+    },
+    "sort": [],
+    "title": "html-requests",
+    "version": 1
+  },
+  "id": "4c4cea90-f05f-11ea-8a36-c5c24b329c44",
+  "migrationVersion": {
+    "search": "7.4.0"
+  },
+  "references": [
+    {
+      "id": "74f6ddc0-f05a-11ea-8a36-c5c24b329c44",
+      "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+      "type": "index-pattern"
+    },
+    {
+      "id": "74f6ddc0-f05a-11ea-8a36-c5c24b329c44",
+      "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index",
+      "type": "index-pattern"
+    },
+    {
+      "id": "74f6ddc0-f05a-11ea-8a36-c5c24b329c44",
+      "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[1].meta.index",
+      "type": "index-pattern"
+    },
+    {
+      "id": "74f6ddc0-f05a-11ea-8a36-c5c24b329c44",
+      "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[2].meta.index",
+      "type": "index-pattern"
+    },
+    {
+      "id": "74f6ddc0-f05a-11ea-8a36-c5c24b329c44",
+      "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[3].meta.index",
+      "type": "index-pattern"
+    },
+    {
+      "id": "74f6ddc0-f05a-11ea-8a36-c5c24b329c44",
+      "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[4].meta.index",
+      "type": "index-pattern"
+    },
+    {
+      "id": "74f6ddc0-f05a-11ea-8a36-c5c24b329c44",
+      "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[5].meta.index",
+      "type": "index-pattern"
+    }
+  ],
+  "type": "search",
+  "updated_at": "2020-11-01T16:38:57.409Z",
+  "version": "WzM2NjgsMTJd"
+}

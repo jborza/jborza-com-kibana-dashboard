@@ -1,0 +1,51 @@
+{
+  "attributes": {
+    "columns": [
+      "url.original",
+      "user_agent.original",
+      "source.as.organization.name"
+    ],
+    "description": "",
+    "hits": 0,
+    "kibanaSavedObjectMeta": {
+      "searchSourceJSON": "{\"highlightAll\":true,\"version\":true,\"query\":{\"language\":\"kuery\",\"query\":\"\"},\"filter\":[{\"meta\":{\"alias\":null,\"negate\":false,\"disabled\":false,\"type\":\"phrase\",\"key\":\"url.original\",\"params\":{\"query\":\"/\"},\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index\"},\"query\":{\"match_phrase\":{\"url.original\":\"/\"}},\"$state\":{\"store\":\"appState\"}},{\"meta\":{\"alias\":null,\"negate\":true,\"disabled\":false,\"type\":\"phrase\",\"key\":\"user_agent.device.name\",\"params\":{\"query\":\"Spider\"},\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.filter[1].meta.index\"},\"query\":{\"match_phrase\":{\"user_agent.device.name\":\"Spider\"}},\"$state\":{\"store\":\"appState\"}},{\"meta\":{\"alias\":null,\"negate\":true,\"disabled\":false,\"type\":\"phrase\",\"key\":\"source.as.organization.name\",\"params\":{\"query\":\"GitHub, Inc.\"},\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.filter[2].meta.index\"},\"query\":{\"match_phrase\":{\"source.as.organization.name\":\"GitHub, Inc.\"}},\"$state\":{\"store\":\"appState\"}},{\"meta\":{\"alias\":null,\"negate\":true,\"disabled\":false,\"type\":\"phrase\",\"key\":\"user_agent.name\",\"params\":{\"query\":\"Python Requests\"},\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.filter[3].meta.index\"},\"query\":{\"match_phrase\":{\"user_agent.name\":\"Python Requests\"}},\"$state\":{\"store\":\"appState\"}}],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+    },
+    "sort": [],
+    "title": "homepage-requests-without-bots",
+    "version": 1
+  },
+  "id": "b2667be0-f067-11ea-8a36-c5c24b329c44",
+  "migrationVersion": {
+    "search": "7.4.0"
+  },
+  "references": [
+    {
+      "id": "74f6ddc0-f05a-11ea-8a36-c5c24b329c44",
+      "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+      "type": "index-pattern"
+    },
+    {
+      "id": "74f6ddc0-f05a-11ea-8a36-c5c24b329c44",
+      "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index",
+      "type": "index-pattern"
+    },
+    {
+      "id": "74f6ddc0-f05a-11ea-8a36-c5c24b329c44",
+      "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[1].meta.index",
+      "type": "index-pattern"
+    },
+    {
+      "id": "74f6ddc0-f05a-11ea-8a36-c5c24b329c44",
+      "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[2].meta.index",
+      "type": "index-pattern"
+    },
+    {
+      "id": "74f6ddc0-f05a-11ea-8a36-c5c24b329c44",
+      "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[3].meta.index",
+      "type": "index-pattern"
+    }
+  ],
+  "type": "search",
+  "updated_at": "2020-09-06T17:37:55.358Z",
+  "version": "Wzk1OSwxXQ=="
+}

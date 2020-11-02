@@ -1,0 +1,93 @@
+{
+  "attributes": {
+    "description": "",
+    "hits": 0,
+    "kibanaSavedObjectMeta": {
+      "searchSourceJSON": "{\"query\":{\"language\":\"kuery\",\"query\":\"\"},\"filter\":[]}"
+    },
+    "optionsJSON": "{\"hidePanelTitles\":false,\"useMargins\":true}",
+    "panelsJSON": "[{\"version\":\"7.9.1\",\"gridData\":{\"x\":0,\"y\":0,\"w\":9,\"h\":15,\"i\":\"f7495bda-c953-49a5-bcdd-1e53d473f4b6\"},\"panelIndex\":\"f7495bda-c953-49a5-bcdd-1e53d473f4b6\",\"embeddableConfig\":{\"vis\":null},\"panelRefName\":\"panel_0\"},{\"version\":\"7.9.1\",\"gridData\":{\"x\":9,\"y\":0,\"w\":32,\"h\":15,\"i\":\"a04a5e07-6914-4198-bb0b-0cd5e9a7d2e7\"},\"panelIndex\":\"a04a5e07-6914-4198-bb0b-0cd5e9a7d2e7\",\"embeddableConfig\":{},\"panelRefName\":\"panel_1\"},{\"version\":\"7.9.1\",\"gridData\":{\"x\":41,\"y\":0,\"w\":7,\"h\":7,\"i\":\"06acc3be-e935-4cc9-b4f8-7bd80bd32453\"},\"panelIndex\":\"06acc3be-e935-4cc9-b4f8-7bd80bd32453\",\"embeddableConfig\":{},\"panelRefName\":\"panel_2\"},{\"version\":\"7.9.1\",\"gridData\":{\"x\":41,\"y\":7,\"w\":7,\"h\":8,\"i\":\"9d5db2b5-edf2-4bfc-af5a-be50f3599d55\"},\"panelIndex\":\"9d5db2b5-edf2-4bfc-af5a-be50f3599d55\",\"embeddableConfig\":{},\"panelRefName\":\"panel_3\"},{\"version\":\"7.9.1\",\"gridData\":{\"x\":0,\"y\":15,\"w\":24,\"h\":12,\"i\":\"ea9b2d1a-701a-4dba-8dc2-d48b3c17b205\"},\"panelIndex\":\"ea9b2d1a-701a-4dba-8dc2-d48b3c17b205\",\"embeddableConfig\":{},\"panelRefName\":\"panel_4\"},{\"version\":\"7.9.1\",\"gridData\":{\"x\":24,\"y\":15,\"w\":24,\"h\":12,\"i\":\"e65dfb0c-37db-4802-ad6f-7675ad8c31fe\"},\"panelIndex\":\"e65dfb0c-37db-4802-ad6f-7675ad8c31fe\",\"embeddableConfig\":{},\"panelRefName\":\"panel_5\"},{\"version\":\"7.9.1\",\"gridData\":{\"x\":0,\"y\":27,\"w\":26,\"h\":15,\"i\":\"30e4d14e-4b52-49e1-b2be-bd36a4f93270\"},\"panelIndex\":\"30e4d14e-4b52-49e1-b2be-bd36a4f93270\",\"embeddableConfig\":{\"mapZoom\":null,\"mapCenter\":null},\"panelRefName\":\"panel_6\"},{\"version\":\"7.9.1\",\"gridData\":{\"x\":26,\"y\":27,\"w\":22,\"h\":15,\"i\":\"fb89d6ed-6513-4877-9423-d967bb632ffc\"},\"panelIndex\":\"fb89d6ed-6513-4877-9423-d967bb632ffc\",\"embeddableConfig\":{},\"panelRefName\":\"panel_7\"},{\"version\":\"7.9.1\",\"gridData\":{\"x\":0,\"y\":42,\"w\":14,\"h\":15,\"i\":\"843fc390-fe7b-4c60-ac7e-1b52830d4034\"},\"panelIndex\":\"843fc390-fe7b-4c60-ac7e-1b52830d4034\",\"embeddableConfig\":{},\"panelRefName\":\"panel_8\"},{\"version\":\"7.9.1\",\"gridData\":{\"x\":14,\"y\":42,\"w\":17,\"h\":15,\"i\":\"dc2c843c-19e8-44e9-8113-c816c2254ab4\"},\"panelIndex\":\"dc2c843c-19e8-44e9-8113-c816c2254ab4\",\"embeddableConfig\":{\"vis\":null},\"panelRefName\":\"panel_9\"},{\"version\":\"7.9.1\",\"gridData\":{\"x\":31,\"y\":42,\"w\":17,\"h\":15,\"i\":\"22ee6d75-29f3-4f15-acf8-1cf2dab61f04\"},\"panelIndex\":\"22ee6d75-29f3-4f15-acf8-1cf2dab61f04\",\"embeddableConfig\":{},\"panelRefName\":\"panel_10\"},{\"version\":\"7.9.1\",\"gridData\":{\"x\":0,\"y\":57,\"w\":17,\"h\":14,\"i\":\"31d36044-56d7-4d02-bb67-87cf798e2054\"},\"panelIndex\":\"31d36044-56d7-4d02-bb67-87cf798e2054\",\"embeddableConfig\":{},\"panelRefName\":\"panel_11\"},{\"version\":\"7.9.1\",\"gridData\":{\"x\":17,\"y\":57,\"w\":11,\"h\":15,\"i\":\"17e12c38-73a0-4f90-ade4-204bf169dfe2\"},\"panelIndex\":\"17e12c38-73a0-4f90-ade4-204bf169dfe2\",\"embeddableConfig\":{},\"panelRefName\":\"panel_12\"},{\"version\":\"7.9.1\",\"gridData\":{\"x\":28,\"y\":57,\"w\":20,\"h\":15,\"i\":\"faaaf95b-3c93-4e70-98b9-bd01ddb4bfd5\"},\"panelIndex\":\"faaaf95b-3c93-4e70-98b9-bd01ddb4bfd5\",\"embeddableConfig\":{},\"panelRefName\":\"panel_13\"}]",
+    "timeRestore": false,
+    "title": "jborza.com",
+    "version": 1
+  },
+  "id": "9e0b3510-f061-11ea-8a36-c5c24b329c44",
+  "migrationVersion": {
+    "dashboard": "7.3.0"
+  },
+  "references": [
+    {
+      "id": "735a5280-f05f-11ea-8a36-c5c24b329c44",
+      "name": "panel_0",
+      "type": "visualization"
+    },
+    {
+      "id": "283b0b30-f066-11ea-8a36-c5c24b329c44",
+      "name": "panel_1",
+      "type": "visualization"
+    },
+    {
+      "id": "e9e32790-f066-11ea-8a36-c5c24b329c44",
+      "name": "panel_2",
+      "type": "visualization"
+    },
+    {
+      "id": "c1e06db0-f067-11ea-8a36-c5c24b329c44",
+      "name": "panel_3",
+      "type": "visualization"
+    },
+    {
+      "id": "845bc750-f062-11ea-8a36-c5c24b329c44",
+      "name": "panel_4",
+      "type": "visualization"
+    },
+    {
+      "id": "df451810-f062-11ea-8a36-c5c24b329c44",
+      "name": "panel_5",
+      "type": "visualization"
+    },
+    {
+      "id": "aac4e050-f05f-11ea-8a36-c5c24b329c44",
+      "name": "panel_6",
+      "type": "visualization"
+    },
+    {
+      "id": "00ffd520-f069-11ea-8a36-c5c24b329c44",
+      "name": "panel_7",
+      "type": "visualization"
+    },
+    {
+      "id": "0d791c00-f067-11ea-8a36-c5c24b329c44",
+      "name": "panel_8",
+      "type": "visualization"
+    },
+    {
+      "id": "45f368f0-f063-11ea-8a36-c5c24b329c44",
+      "name": "panel_9",
+      "type": "visualization"
+    },
+    {
+      "id": "df23f420-f065-11ea-8a36-c5c24b329c44",
+      "name": "panel_10",
+      "type": "visualization"
+    },
+    {
+      "id": "e50649f0-f061-11ea-8a36-c5c24b329c44",
+      "name": "panel_11",
+      "type": "visualization"
+    },
+    {
+      "id": "81b41f90-f065-11ea-8a36-c5c24b329c44",
+      "name": "panel_12",
+      "type": "visualization"
+    },
+    {
+      "id": "68040070-f064-11ea-8a36-c5c24b329c44",
+      "name": "panel_13",
+      "type": "visualization"
+    }
+  ],
+  "type": "dashboard",
+  "updated_at": "2020-09-09T18:14:22.451Z",
+  "version": "WzE5MjYsMl0="
+}

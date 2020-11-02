@@ -1,0 +1,27 @@
+{
+  "attributes": {
+    "description": "",
+    "kibanaSavedObjectMeta": {
+      "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[]}"
+    },
+    "savedSearchRefName": "search_0",
+    "title": "req-map",
+    "uiStateJSON": "{}",
+    "version": 1,
+    "visState": "{\"title\":\"req-map\",\"type\":\"tile_map\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"geohash_grid\",\"params\":{\"field\":\"source.geo.location\",\"autoPrecision\":true,\"precision\":2,\"useGeocentroid\":true,\"isFilteredByCollar\":true},\"schema\":\"segment\"}],\"params\":{\"colorSchema\":\"Yellow to Red\",\"mapType\":\"Scaled Circle Markers\",\"isDesaturated\":true,\"addTooltip\":true,\"heatClusterSize\":1.5,\"legendPosition\":\"bottomright\",\"mapZoom\":2,\"mapCenter\":[0,0],\"wms\":{\"enabled\":false,\"options\":{\"format\":\"image/png\",\"transparent\":true},\"selectedTmsLayer\":{\"origin\":\"elastic_maps_service\",\"id\":\"road_map\",\"minZoom\":0,\"maxZoom\":10,\"attribution\":\"<a rel=\\\"noreferrer noopener\\\" href=\\\"https://www.openstreetmap.org/copyright\\\">OpenStreetMap contributors</a> | <a rel=\\\"noreferrer noopener\\\" href=\\\"https://openmaptiles.org\\\">OpenMapTiles</a> | <a rel=\\\"noreferrer noopener\\\" href=\\\"https://www.elastic.co/elastic-maps-service\\\">Elastic Maps Service</a>\"}}}}"
+  },
+  "id": "aac4e050-f05f-11ea-8a36-c5c24b329c44",
+  "migrationVersion": {
+    "visualization": "7.8.0"
+  },
+  "references": [
+    {
+      "id": "4c4cea90-f05f-11ea-8a36-c5c24b329c44",
+      "name": "search_0",
+      "type": "search"
+    }
+  ],
+  "type": "visualization",
+  "updated_at": "2020-09-06T16:40:26.581Z",
+  "version": "WzI2MiwxXQ=="
+}
